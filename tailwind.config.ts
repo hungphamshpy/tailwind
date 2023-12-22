@@ -18,7 +18,10 @@ const config: Config = {
       transparent: 'transparent',
       current: 'currentColor',
       'primary_black': '#04103b',
-      'primary_purple': '#5041bc',
+      'primary_purple': {
+        200:'#f5f3ff',
+        600:'#5041bc'
+      },
       'primary_green': '#43be83',
       'primary_orange ': '#ff8057',
       'primary_white': '#ffffff'
